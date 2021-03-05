@@ -10,7 +10,7 @@ export class Discreta{
                 return 0;
             }
         }
-        let sum=0;
+        let sum=0;//para sumar las probabilidades acumualtivas en rangos
         let i=0;
         let probabilidad=0;
         if(maximo && minimo){
